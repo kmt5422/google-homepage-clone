@@ -43,7 +43,13 @@ main img {
     width: 30%;
     height: auto;
     padding-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+#search-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #search-bar {
@@ -53,7 +59,36 @@ main img {
     border-right-style: none;
     border-width: 1px;
     border-color: lightgrey;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search-div::before {
+    content: " ";
+    display: inline-block;
+    width: 30px;
     height: 30px;
+    border-style: solid none solid solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#search-div::after {
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-style: solid solid solid none;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 main div {

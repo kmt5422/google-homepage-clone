@@ -38,6 +38,24 @@ main {
 main img {
     width: 40%;
     height: auto;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+#search-bar {
+    width: 40%;
+    border-radius: 10px;
+}
+
+main div {
+    margin-top: 10px;
+}
+
+main div button {
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 p a {
@@ -45,3 +63,22 @@ p a {
 }
 
 /*FOOTER STYLES*/
+footer {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 15px;
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 5%;
+}
+
+footer nav {
+    margin: auto auto;
+    height: 100%;
+}
+
+footer nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 3fr 1fr 1fr 1fr;
+    justify-content: center;
+}

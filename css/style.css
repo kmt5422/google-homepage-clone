@@ -1,3 +1,4 @@
+
 /*HEADER STYLES*/
 header {
     margin: 15px;
@@ -28,6 +29,9 @@ header nav ul {
 
 /*MAIN STYLES*/
 main {
+    margin-top: 150px;
+    margin-bottom: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,7 +40,7 @@ main {
 }
 
 main img {
-    width: 40%;
+    width: 30%;
     height: auto;
     padding-top: 10px;
     margin-bottom: 50px;
@@ -44,7 +48,12 @@ main img {
 
 #search-bar {
     width: 40%;
-    border-radius: 10px;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 1px;
+    border-color: lightgrey;
+    height: 30px;
 }
 
 main div {
@@ -56,10 +65,15 @@ main div button {
     border-radius: 10px;
     margin-right: 20px;
     margin-left: 20px;
+    height: 35px;
+    padding: 5px 5px;
 }
 
 p a {
     color: blue;
+    font-size: 15px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 /*FOOTER STYLES*/

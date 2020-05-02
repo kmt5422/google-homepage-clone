@@ -1,4 +1,6 @@
-
+*:focus {
+    outline: none;
+}
 /*HEADER STYLES*/
 header {
     margin: 15px;
@@ -115,7 +117,6 @@ p a {
 footer {
     position: absolute;
     bottom: 0px;
-    margin-left: 15px;
     width: 100%;
     background-color: #F2F2F2;
     height: 5%;
@@ -127,7 +128,12 @@ footer nav {
 }
 
 footer nav ul {
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 3fr 1fr 1fr 1fr;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+footer nav ul li {
+    margin: auto auto;
 }
